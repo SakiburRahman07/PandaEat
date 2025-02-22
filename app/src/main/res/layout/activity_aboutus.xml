@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".aboutus">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+        android:src="@drawable/sakib"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Md. Sakibur Rahman"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:id="@+id/textmargin"
+        android:text="Roll: 2007007"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+
+
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Welcome to our culinary hub, where chefs craft and showcase their dishes, customers easily order and track meals, and delivery experts ensure swift, reliable delivery. Chefs dazzle with their recipes, customers savor the step-by-step cooking guides, and everyone enjoys seamless login and signup experiences. Ratings from satisfied customers add a sprinkle of appreciation to our flavorful community.Step into our vibrant culinary world! Here, talented chefs create and share their delectable dishes, while customers effortlessly order and track their meals. Our platform weaves together a tapestry of diverse recipes, each accompanied by simple step-by-step guides for cooking mastery. Seamless login and signup experiences welcome everyone to this flavorful realm, where satisfied customers sprinkle their ratings, adding a dash of appreciation to our thriving community." />
+
+
+    </ScrollView>
+
+
+</LinearLayout>

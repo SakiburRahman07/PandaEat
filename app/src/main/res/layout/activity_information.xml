@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginStart="100dp"
+    android:layout_marginEnd="100dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Information">
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Famous Food  "
+        android:textColor="@color/white"
+        android:background="@color/Red"
+        android:id="@+id/famousfood"
+        android:layout_marginBottom="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Teacher  "
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:id="@+id/teacherred"
+        android:layout_marginBottom="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  About us  "
+        android:textColor="@color/white"
+        android:background="@color/Red"
+        android:id="@+id/aboutusred"
+        android:layout_marginBottom="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Different Recepi  "
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:id="@+id/diffrecepired"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".uthsosir">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+        android:src="@drawable/uthsho_sir"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kazi Saeed Alam"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Lecturer"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="Kazi Saeed Alam comes across as a dedicated and ambitious individual, passionate about the field of computer science and its various applications. His academic journey from being a graduate of Khulna University of Engineering and Technology (KUET) to becoming a lecturer at the same institution showcases his commitment to education and continuous learning. His interests in diverse areas such as Natural Language Processing, Image Processing, Computer Vision, Machine Learning, Data Mining, and Big Data highlight his multifaceted expertise within the realm of technology.
+
+His aspirations reflect a desire for professional growth and a keenness to apply his skills effectively, both in teaching and contributing to the broader community. His website's warm acknowledgment of visitors demonstrates a courteous and appreciative demeanor, likely indicative of his interpersonal skills and appreciation for others' time and interest.Overall, Kazi Saeed Alam seems to be a driven individual with a strong academic background and a wide range of interests in computer science, aiming to make meaningful contributions to education and societal advancement."
+            android:fontFamily="@font/poppinsbold"
+            android:layout_gravity="center"/>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

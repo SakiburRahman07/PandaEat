@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".arghasir">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+        android:src="@drawable/argha_sir"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Argha Chandra Dhar"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Lecturer"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="Argha Chandra Dhar is a Lecturer at the Department of Computer Science and Engineering (CSE) at Khulna University of Engineering and Technology (KUET) in Bangladesh. His primary area of expertise likely lies within computer science and engineering, which he teaches at the university level.
+
+He can be reached via phone at +8801793075929 or through email at argha705039@gmail.com. Additionally, he might have a personal website, www.kuet.ac.bd/cse/dhar/, which could potentially contain more information about his research, academic interests, publications, or course materials.
+
+As for his teaching style or specific areas of research, without more detailed information, it's challenging to provide specific insights. Typically, university lecturers like Argha Chandra Dhar engage in teaching undergraduate and possibly graduate students, conduct research in their field, and might also be involved in academic initiatives or projects within the university."
+            android:fontFamily="@font/poppinsbold"
+            android:layout_gravity="center"/>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

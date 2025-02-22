@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    tools:context=".MainMenu">
+
+    <ImageView
+        android:id="@+id/back2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/f4" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="290dp"
+        android:layout_height="500dp"
+        android:background="@drawable/background_shape"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="130dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/Red">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/title_img2" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:padding="16dp"
+            android:text="Eat Homemade Anywhere!"
+            android:textAlignment="center"
+            android:textColor="@color/OffWhite"
+            android:textSize="18sp" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/Red"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/SignwithEmail"
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/Red"
+                android:foreground= "?attr/selectableItemBackground"
+                android:clickable="true"
+                android:drawableStart="@drawable/whitemail"
+                android:paddingStart="16dp"
+                android:text="Sign In with Email"
+                android:textColor="#FFFFFF" />
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/Red"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/recepii"
+                android:foreground= "?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blueish"
+
+                android:drawableStart="@drawable/recepi"
+                android:paddingStart="16dp"
+                android:text="Different Recepi"
+                android:textColor="#FFFFFF" />
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/SignwithPhone"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/f1"
+            android:drawableStart="@drawable/phonewhite"
+            android:paddingStart="16dp"
+            android:visibility="gone"
+            android:text="Sign In with Phone"
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/hr"
+                android:layout_width="90dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:background="#474646" />
+
+            <TextView
+                android:id="@+id/OR"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:text="OR"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <View
+                android:id="@+id/dr"
+                android:layout_width="90dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="7dp"
+                android:background="#474646" />
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/Red"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Signup"
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:foreground= "?attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_gravity="center"
+                android:drawableStart="@drawable/baseline_create_24"
+                android:background="@color/green"
+                android:paddingStart="16dp"
+                android:text="Sign Up"
+                android:textColor="#FFFFFF" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

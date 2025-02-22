@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "645154776593",
+    "project_id": "pandaeat-46e82",
+    "storage_bucket": "pandaeat-46e82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645154776593:android:81eb0b62ee6a307a0df3b0",
+        "android_client_info": {
+          "package_name": "com.example.pandaeat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFPI3QC5ICKjL1J81uaOsqHWtFBHEsQTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

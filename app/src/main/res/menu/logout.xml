@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/LOGOUT"
+        android:title="Logout"
+        android:visible="true"
+        android:icon="@drawable/logoutwhite"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/profilewhite"
+        android:title="Profile"
+        android:visible="true"
+        android:icon="@drawable/profilewhite"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/teacher"
+        android:title="Cource Instructor"
+        android:visible="true"
+        android:icon="@drawable/teacher"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/aboutus"
+        android:title="About us"
+        android:visible="true"
+        android:icon="@drawable/aboutus"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/apiuse"
+        android:title="Different Recepi"
+        android:visible="true"
+        android:icon="@drawable/food"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/banglajson"
+        android:title="Bengali Food Recepi"
+        android:visible="true"
+        android:icon="@drawable/recepi"
+        app:showAsAction="never"/>
+
+</menu>

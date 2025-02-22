@@ -1,0 +1,326 @@
+<resources>
+    <string name="app_name">PandaEat</string>
+
+    <string name="api_key">76980126123840baa2ed7829bad4fc8f</string>
+    <string-array name="State">
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Rajshahi</item>
+        <item>Khulna</item>
+        <item>Rangpur</item>
+        <item>Dinajpur</item>
+        <item>Mymensing</item>
+        <item>Sylhet</item>
+    </string-array>
+
+    <string-array name="tags">
+        <item>main course</item>
+        <item>side dish</item>
+        <item>dessert</item>
+        <item>appetizer</item>
+        <item>salad</item>
+        <item>bread</item>
+        <item>breakfast</item>
+        <item>soup</item>
+        <item>beverage</item>
+        <item>sauce</item>
+        <item>marinade</item>
+        <item>fingerfood</item>
+        <item>snack</item>
+        <item>drink</item>
+    </string-array>
+
+
+    <string-array name="shipper">
+        <item>Shipper 1</item>
+        <item>Shipper 2</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>Tangail</item>
+
+    </string-array>
+
+    <!-- <string-array name="DishName">
+        <item>Rice</item>
+        <item>Fish</item>
+        <item>Chicken</item>
+    </string-array>-->
+
+    <string-array name="DishName">
+        <item>Machher Jhol</item>
+        <item>Shorshe Ilish</item>
+        <item>Alur Dom</item>
+        <item>Chingri Malai Curry</item>
+        <item>Kosha Mangsho</item>
+        <item>Mutton Biryani</item>
+        <item>Vegetable Biryani</item>
+        <item>Luchi</item>
+        <item>Rosogolla</item>
+        <item>Sandesh</item>
+        <item>Chomchom</item>
+        <item>Mishti Doi</item>
+        <item>Macher Paturi</item>
+        <item>Mochar Ghonto</item>
+        <item>Shorshe Bhapa Maach</item>
+        <item>Aloo Posto</item>
+        <item>Shorshe Phulkopi</item>
+        <item>Begun Bhaja</item>
+        <item>Dhokar Dalna</item>
+        <item>Panta Ilish</item>
+        <item>Kati Roll</item>
+        <item>Shingara</item>
+        <item>Murighonto</item>
+        <item>Patishapta</item>
+        <item>Kheer Kodom</item>
+        <item>Rui Macher Kalia</item>
+        <item>Rui Macher Jhol</item>
+        <item>Prawn Malai Curry</item>
+        <item>Maacher Dimer Bora</item>
+        <item>Murgir Jhol</item>
+        <item>Doi Potol</item>
+        <item>Kochu Saag</item>
+        <item>Muri Ghonto</item>
+        <item>Koraishutir Kochuri</item>
+        <item>Papad Bhaja</item>
+        <item>Khichuri</item>
+        <item>Chitol Maacher Muitha</item>
+        <item>Sorsebata Ilish Mach</item>
+        <item>Shorshe Dharosh</item>
+        <item>Kosha Aloo Dum</item>
+        <item>Murighonto</item>
+        <item>Khichuri</item>
+        <item>Posto Bora</item>
+        <item>Maacher Tel Jhol</item>
+        <item>Moong Daal</item>
+        <item>Radhaballavi</item>
+        <item>Rasgulla</item>
+        <item>Kacha Golla</item>
+        <item>Jilipi</item>
+        <item>Langcha</item>
+        <item>Kamala Bhog</item>
+        <item>Misti Singara</item>
+        <item>Khaja</item>
+        <item>Kulfi</item>
+        <item>Rosh Bora</item>
+        <item>Paayesh</item>
+        <item>Daab Chingri</item>
+        <item>Mango Chutney</item>
+        <item>Aam Doi</item>
+        <item>Rajbhog</item>
+        <item>Chhanar Dalna</item>
+        <item>Aloo Potoler Dalna</item>
+        <item>Bengali Mishti Pulao</item>
+        <item>Shutki Maach Bhaja</item>
+        <item>Kosha Chingri</item>
+        <item>Begun Bhaja</item>
+        <item>Mutton Kosha</item>
+        <item>Shak Bhaja</item>
+        <item>Chhanar Payesh</item>
+        <item>Misti Doi</item>
+        <item>Baingan Bharta</item>
+        <item>Tomato Chutney</item>
+        <item>Sweet Tomato Chutney</item>
+        <item>Khichdi</item>
+        <item>Chholar Dal</item>
+        <item>Pui Saag</item>
+        <item>Shosha Bengali</item>
+        <item>Dhokar Dalna</item>
+        <item>Mom Bati</item>
+        <item>Chanar Jilipi</item>
+        <item>Patishapta</item>
+        <item>Labra</item>
+        <item>Lau Chingri</item>
+        <item>Malpua</item>
+        <item>Bengali Rasgulla</item>
+        <item>Shondesh</item>
+        <item>Makha Sandesh</item>
+        <item>Narkel Naru</item>
+        <item>Ras Malai</item>
+        <item>Chingri Bhorta</item>
+        <item>Doi Murgi</item>
+        <item>Khichuri</item>
+        <item>Chingri Bhapa</item>
+        <item>Dhokar Dalna</item>
+        <item>Aloo Potol Posto</item>
+        <item>Kosha Mangsho</item>
+        <item>Rice and Fish Curry</item>
+        <item>Rui Maach Kalia</item>
+        <item>Panta Ilish</item>
+        <item>Rice and Prawns Curry</item>
+        <item>Kati Roll</item>
+        <item>Shingara</item>
+        <item>Muri Ghonto</item>
+        <item>Patishapta</item>
+        <item>Kheer Kodom</item>
+        <item>Bhuna Mutton</item>
+        <item>Aloo Posto</item>
+        <item>Shorshe Phulkopi</item>
+        <item>Begun Bhaja</item>
+        <item>Dhokar Dalna</item>
+        <item>Panta Ilish</item>
+        <item>Kati Roll</item>
+        <item>Shingara</item>
+        <item>Murighonto</item>
+        <item>Patishapta</item>
+        <item>Kheer Kodom</item>
+        <item>Rui Macher Kalia</item>
+        <item>Rui Macher Jhol</item>
+        <item>Prawn Malai Curry</item>
+        <item>Maacher Dimer Bora</item>
+        <item>Murgir Jhol</item>
+        <item>Doi Potol</item>
+        <item>Kochu Saag</item>
+        <item>Muri Ghonto</item>
+        <item>Koraishutir Kochuri</item>
+        <item>Papad Bhaja</item>
+        <item>Khichuri</item>
+        <item>Chitol Maacher Muitha</item>
+        <item>Sorsebata Ilish Mach</item>
+        <item>Shorshe Dharosh</item>
+        <item>Kosha Aloo Dum</item>
+        <item>Murighonto</item>
+        <item>Khichuri</item>
+        <item>Posto Bora</item>
+        <item>Maacher Tel Jhol</item>
+        <item>Moong Daal</item>
+        <item>Radhaballavi</item>
+        <item>Rasgulla</item>
+        <item>Kacha Golla</item>
+        <item>Jilipi</item>
+        <item>Langcha</item>
+        <item>Kamala Bhog</item>
+        <item>Misti Singara</item>
+        <item>Khaja</item>
+        <item>Kulfi</item>
+        <item>Rosh Bora</item>
+        <item>Paayesh</item>
+        <item>Daab Chingri</item>
+        <item>Mango Chutney</item>
+        <item>Aam Doi</item>
+        <item>Rajbhog</item>
+        <item>Chhanar Dalna</item>
+        <item>Aloo Potoler Dalna</item>
+        <item>Bengali Mishti Pulao</item>
+        <item>Shutki Maach Bhaja</item>
+        <item>Kosha Chingri</item>
+        <item>Begun Bhaja</item>
+        <item>Mutton Kosha</item>
+        <item>Shak Bhaja</item>
+        <item>Chhanar Payesh</item>
+        <item>Misti Doi</item>
+        <item>Baingan Bharta</item>
+        <item>Tomato Chutney</item>
+        <item>Sweet Tomato Chutney</item>
+        <item>Khichdi</item>
+        <item>Chholar Dal</item>
+        <item>Pui Saag</item>
+        <item>Shosha Bengali</item>
+        <item>Dhokar Dalna</item>
+        <item>Mom Bati</item>
+        <item>Chanar Jilipi</item>
+        <item>Patishapta</item>
+        <item>Labra</item>
+        <item>Lau Chingri</item>
+        <item>Malpua</item>
+        <item>Bengali Rasgulla</item>
+        <item>Shondesh</item>
+        <item>Makha Sandesh</item>
+        <item>Narkel Naru</item>
+        <item>Ras Malai</item>
+        <item>Chingri Bhorta</item>
+        <item>Doi Murgi</item>
+        <item>Khichuri</item>
+        <item>Chingri Bhapa</item>
+        <item>Dhokar Dalna</item>
+        <item>Aloo Potol Posto</item>
+        <item>Kosha Mangsho</item>
+        <item>Rice and Fish Curry</item>
+        <item>Rui Maach Kalia</item>
+        <item>Panta Ilish</item>
+        <item>Rice and Prawns Curry</item>
+        <item>Kati Roll</item>
+        <item>Shingara</item>
+        <item>Muri Ghonto</item>
+        <item>Patishapta</item>
+        <item>Kheer Kodom</item>
+        <item>Rui Macher Kalia</item>
+        <item>Rui Macher Jhol</item>
+        <item>Prawn Malai Curry</item>
+        <item>Maacher Dimer Bora</item>
+        <item>Murgir Jhol</item>
+        <item>Doi Potol</item>
+        <item>Kochu Saag</item>
+        <item>Muri Ghonto</item>
+        <item>Koraishutir Kochuri</item>
+        <item>Papad Bhaja</item>
+        <item>Khichuri</item>
+        <item>Chitol Maacher Muitha</item>
+        <item>Sorsebata Ilish Mach</item>
+        <item>Shorshe Dharosh</item>
+        <item>Kosha Aloo Dum</item>
+        <item>Murighonto</item>
+        <item>Khichuri</item>
+        <item>Posto Bora</item>
+        <item>Maacher Tel Jhol</item>
+        <item>Moong Daal</item>
+        <item>Radhaballavi</item>
+        <item>Rasgulla</item>
+        <item>Kacha Golla</item>
+        <item>Jilipi</item>
+        <item>Langcha</item>
+        <item>Kamala Bhog</item>
+        <item>Misti Singara</item>
+        <item>Khaja</item>
+        <item>Kulfi</item>
+        <item>Rosh Bora</item>
+        <item>Paayesh</item>
+        <item>Daab Chingri</item>
+        <item>Mango Chutney</item>
+        <item>Aam Doi</item>
+        <item>Rajbhog</item>
+        <item>Chhanar Dalna</item>
+        <item>Aloo Potoler Dalna</item>
+        <item>Bengali Mishti Pulao</item>
+        <item>Shutki Maach Bhaja</item>
+        <item>Kosha Chingri</item>
+        <item>Begun Bhaja</item>
+        <item>Mutton Kosha</item>
+        <item>Shak Bhaja</item>
+        <item>Chhanar Payesh</item>
+        <item>Misti Doi</item>
+        <item>Baingan Bharta</item>
+        <item>Tomato Chutney</item>
+        <item>Sweet Tomato Chutney</item>
+        <item>Khichdi</item>
+        <item>Chholar Dal</item>
+        <item>Pui Saag</item>
+        <item>Shosha Bengali</item>
+        <item>Dhokar Dalna</item>
+        <item>Mom Bati</item>
+        <item>Chanar Jilipi</item>
+        <item>Patishapta</item>
+        <item>Labra</item>
+        <item>Lau Chingri</item>
+        <item>Malpua</item>
+        <item>Bengali Rasgulla</item>
+        <item>Shondesh</item>
+        <item>Makha Sandesh</item>
+        <item>Narkel Naru</item>
+        <item>Ras Malai</item>
+        <item>Chingri Bhorta</item>
+        <item>Doi Murgi</item>
+        <item>Khichuri</item>
+        <item>Chingri Bhapa</item>
+        <item>Dhokar Dalna</item>
+        <item>Aloo Potol Posto</item>
+        <item>Kosha Mangsho</item>
+        <item>Rice and Fish Curry</item>
+        <item>Rui Maach Kalia</item>
+        <item>Panta Ilish</item>
+        <item>Rice and Prawns Curry</item>
+        <item>Kati Roll</item>
+    </string-array>
+
+
+</resources>

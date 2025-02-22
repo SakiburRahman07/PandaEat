@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".sunandasir">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+        android:src="@drawable/sunondo_sir"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sunanda Das"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Assistant Professor"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="Sunanda Das is an esteemed Assistant Professor within the Department of Computer Science and Engineering (CSE) at Khulna University of Engineering ans Technology (KUET) in Bangladesh. With a dedication to advancing knowledge and nurturing future talents,  Das plays a pivotal role in shaping the academic landscape within the department.
+
+Her expertise spans various facets of computer science and engineering, reflecting her profound understanding of the field. She engages students through her dynamic teaching style, fostering an environment that encourages curiosity and innovation. Das's commitment to academic excellence is evident in her meticulous approach to research and education.
+
+As an educator, she not only imparts theoretical knowledge but also emphasizes practical applications, preparing students to excel in the rapidly evolving tech industry. Her contributions to the department extend beyond the classroom, as she actively participates in research endeavors and academic initiatives, enriching the academic community.
+
+"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_gravity="center"/>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
